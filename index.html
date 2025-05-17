@@ -1,37 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sakshi Sharma | PDF Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshi Sharma | Content Writing Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2rem; }
-    h1 { color: #1a73e8; }
-    ul { padding-left: 1.2rem; }
-    li { margin: 1rem 0; }
-    a { color: #1a73e8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .resume { margin: 2rem 0; }
-    .resume a { background: #1a73e8; color: white; padding: 0.5rem 1rem; border-radius: 5px; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a73e8;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    main {
+      padding: 2rem;
+      max-width: 850px;
+      margin: auto;
+    }
+    .about {
+      margin-bottom: 2.5rem;
+    }
+    .about p {
+      font-size: 1.1rem;
+    }
+    h2 {
+      color: #1a73e8;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f8f9fa;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-left: 4px solid #1a73e8;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+    li a {
+      text-decoration: none;
+      color: #1a73e8;
+      font-weight: 600;
+    }
+    li a:hover {
+      text-decoration: underline;
+    }
+    .resume-button {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .resume-button a {
+      background-color: #1a73e8;
+      color: white;
+      padding: 0.8rem 1.6rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .resume-button a:hover {
+      background-color: #0c59c4;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #f1f1f1;
+      margin-top: 3rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Sakshi Sharma</h1>
-  <p>Content Writer | SEO Specialist | Technical Writing Enthusiast</p>
-  <div class="resume">
-    <a href="Sakshi_Sharma_Resume.pdf" download>📄 Download My Resume</a>
-  </div>
-  <h2>Articles</h2>
-  <ul>
-    <li><a href="creating-csr-and-key-attestation-using-yubikey-token.pdf" target="_blank">Creating Csr And Key Attestation Using Yubikey Token</a></li>
-<li><a href="how-to-fix-neterr_cert_common_name_invalid-error.pdf" target="_blank">How To Fix Neterr_Cert_Common_Name_Invalid Error</a></li>
-<li><a href="how-to-fix-ssl-tls-handshake-failed-error.pdf" target="_blank">How To Fix Ssl Tls Handshake Failed Error</a></li>
-<li><a href="https-vs-sftp.pdf" target="_blank">Https Vs Sftp</a></li>
-<li><a href="ssl-certificates-installation-tutorials.pdf" target="_blank">Ssl Certificates Installation Tutorials</a></li>
-<li><a href="what-is-windows-code-signing-certificate.pdf" target="_blank">What Is Windows Code Signing Certificate</a></li>
-<li><a href="what-is-a-cloud-hardware-security-module.pdf" target="_blank">What Is A Cloud Hardware Security Module</a></li>
-<li><a href="what-is-google-cloud-hsm.pdf" target="_blank">What Is Google Cloud Hsm</a></li>
+  <header>
+    <h1>Sakshi Sharma</h1>
+    <p>Content Writer | SEO Specialist | Technical Writing Enthusiast</p>
+  </header>
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I’m a content writer with over 3 years of experience in crafting clear, engaging, and SEO-optimized content. I specialize in simplifying complex topics, especially in the tech space, and have helped brands grow their digital presence with compelling, research-driven articles.</p>
+    </section>
 
-  </ul>
+    <div class="resume-button">
+      <a href="Sakshi_Sharma_Resume.pdf" download>📄 Download My Resume</a>
+    </div>
+
+    <section>
+      <h2>Featured Work</h2>
+      <ul>
+        <li><a href="articles/creating-csr-and-key-attestation-using-yubikey-token.html">Creating CSR & Key Attestation with YubiKey</a></li>
+        <li><a href="articles/how-to-fix-neterr_cert_common_name_invalid-error.html">Fixing NET::ERR_CERT_COMMON_NAME_INVALID Error</a></li>
+        <li><a href="articles/how-to-fix-ssl-tls-handshake-failed-error.html">How to Fix SSL/TLS Handshake Failed</a></li>
+        <li><a href="articles/https-vs-sftp.html">HTTPS vs SFTP: Technical Comparison</a></li>
+        <li><a href="articles/ssl-certificates-installation-tutorials.html">SSL Certificates Installation Tutorials</a></li>
+        <li><a href="articles/what-is-windows-code-signing-certificate.html">What is Windows Code Signing Certificate?</a></li>
+        <li><a href="articles/what-is-a-cloud-hardware-security-module.html">What is a Cloud HSM?</a></li>
+        <li><a href="articles/what-is-google-cloud-hsm.html">What is Google Cloud HSM?</a></li>
+        </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Sakshi Sharma. All rights reserved.
+  </footer>
 </body>
 </html>
