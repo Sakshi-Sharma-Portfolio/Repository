@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sakshi Sharma | Content Writing Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakshi Sharma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Sakshi Sharma</h1>
     <p>Content Writer | SEO Specialist | Technical Writing Enthusiast</p>
   </header>
-
   <main>
-    <section class="about"> <h2>About Me</h2>
-      <p>I’m a content writer with over 3 years of experience in crafting clear, engaging, and SEO-optimized content. I specialize in simplifying complex topics, especially in the tech space, and have helped brands grow their digital presence with compelling, research-driven articles.</p>
+    <section class="intro">
+      <p>I craft engaging, well-researched content that simplifies complex ideas and drives traffic. Explore some of my best work below.</p>
     </section>
-
-    <div class="resume-button-container"> <a href="Sakshi_Sharma_Resume.pdf" download class="resume-button">📄 Download My Resume</a>
-    </div>
-
-    <section class="featured-work-section"> <h2>Featured Work</h2>
-      <ul>
-        <li class="portfolio-item"><a href="articles/creating-csr-and-key-attestation-using-yubikey-token.html">Creating CSR & Key Attestation with YubiKey</a></li>
-        <li class="portfolio-item"><a href="articles/how-to-fix-neterr_cert_common_name_invalid-error.html">Fixing NET::ERR_CERT_COMMON_NAME_INVALID Error</a></li>
-        <li class="portfolio-item"><a href="articles/how-to-fix-ssl-tls-handshake-failed-error.html">How to Fix SSL/TLS Handshake Failed</a></li>
-        <li class="portfolio-item"><a href="articles/https-vs-sftp.html">HTTPS vs SFTP: Technical Comparison</a></li>
-        <li class="portfolio-item"><a href="articles/ssl-certificates-installation-tutorials.html">SSL Certificates Installation Tutorials</a></li>
-        <li class="portfolio-item"><a href="articles/what-is-windows-code-signing-certificate.html">What is Windows Code Signing Certificate?</a></li>
-        <li class="portfolio-item"><a href="articles/what-is-a-cloud-hardware-security-module.html">What is a Cloud HSM?</a></li>
-        <li class="portfolio-item"><a href="articles/what-is-google-cloud-hsm.html">What is Google Cloud HSM?</a></li>
-      </ul>
+    <section class="resume">
+      <a href="Sakshi_Sharma_Resume.pdf" download>📄 Download My Resume</a>
+    </section>
+    <section class="portfolio">
+      <h2>Featured Articles</h2>
+      <ul id="articleList"></ul>
     </section>
   </main>
-
   <footer>
-    &copy; 2025 Sakshi Sharma. All rights reserved. </footer>
-
+    &copy; 2025 Sakshi Sharma. All rights reserved.
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
